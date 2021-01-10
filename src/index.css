@@ -1,4 +1,8 @@
 
+:root {
+  font-size: 1em;
+}
+
 *, *::before, *::after {
   margin: 0;
   padding: 0;

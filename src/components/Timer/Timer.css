@@ -1,0 +1,6 @@
+.timer-container {
+  display: block;
+  width: 90%;
+  border: 1px solid #22007C;
+  padding: 1em;
+}
