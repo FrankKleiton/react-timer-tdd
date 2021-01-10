@@ -7,7 +7,7 @@ describe('<Timer />', () => {
 
   beforeEach(() => wrapper = shallow(<Timer />));
 
-  it('<div />', () => {
+  it('should render a <div className="timer-container" /> component', () => {
     expect(wrapper.find('div.timer-container')).toHaveLength(1);
   });
 });

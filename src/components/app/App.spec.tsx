@@ -8,15 +8,12 @@ describe('<App />', () => {
 
   beforeEach(() => wrapper = shallow(<App />));
 
-  it('<div />', () => {
-    expect(wrapper.find('div')).toHaveLength(1);
-  });
-
-  it('<div className="app-container" />', () => {
+  it('should render a <div className="app-container" /> component', () => {
     expect(wrapper.find('div.app-container')).toHaveLength(1);
+
   });
 
-  it('<Time />', () => {
+  it('should render a <Time /> component', () => {
     expect(wrapper.containsMatchingElement(<Timer />)).toEqual(true);
   });
 });
