@@ -1,6 +1,23 @@
 .timer-container {
-  display: block;
   width: 90%;
-  border: 1px solid #22007C;
+  height: 70%;
   padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #00916E;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, .3);
+}
+
+.timer-container .buttons-container {
+  background-color: inherit;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 620px) {
+  .timer-container {
+    height: 50%;
+  }
 }

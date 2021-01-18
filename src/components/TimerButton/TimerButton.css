@@ -1,0 +1,12 @@
+button {
+  font-size: 1rem;
+  /* background-color: #786452; */
+  background: linear-gradient(180deg, #786452, #534335);
+  color: #FFFFFF;
+  border: none;
+  padding: .5em 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0px 4px 9px rgba(120, 100, 82, .8);
+}

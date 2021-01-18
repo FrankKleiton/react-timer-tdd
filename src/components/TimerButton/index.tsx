@@ -1,8 +1,14 @@
 import React from 'react';
+import './TimerButton.css';
 
-const TimerButton = () => {
+interface TimerButtonProps {
+  buttonAction(): void
+  buttonValue: string
+}
+
+const TimerButton = ({ buttonAction, buttonValue }: TimerButtonProps) => {
   return (
-    <hr />
+    <button type='submit' onClick={buttonAction}>{buttonValue}</button>
   );
 }
 

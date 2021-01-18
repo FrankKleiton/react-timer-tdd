@@ -1,6 +1,6 @@
 
 :root {
-  font-size: 1em;
+  font-size: calc(.4em + 2vw);
 }
 
 *, *::before, *::after {
@@ -11,4 +11,5 @@
 
 body {
   box-sizing: border-box;
+  background: linear-gradient(180deg, #786452, #47392c);
 }
