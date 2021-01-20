@@ -1,6 +1,6 @@
 button {
   font-size: 1rem;
-  /* background-color: #786452; */
+  outline: none;
   background: linear-gradient(180deg, #786452, #534335);
   color: #FFFFFF;
   border: none;

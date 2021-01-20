@@ -4,11 +4,18 @@ import './TimerButton.css';
 interface TimerButtonProps {
   buttonAction(): void
   buttonValue: string
+  className: string
 }
 
-const TimerButton = ({ buttonAction, buttonValue }: TimerButtonProps) => {
+const TimerButton = ({ buttonAction, buttonValue, className }: TimerButtonProps) => {
   return (
-    <button type='submit' onClick={buttonAction}>{buttonValue}</button>
+    <button 
+      className={className} 
+      type='submit' 
+      onClick={buttonAction}
+    >
+      {buttonValue}
+    </button>
   );
 }
 

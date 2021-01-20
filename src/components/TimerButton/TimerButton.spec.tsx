@@ -6,11 +6,12 @@ describe('<TimerButton />', () => {
   it('should render a <button /> component', () => {
     const wrapper = shallow(
       <TimerButton 
+        className="start-timer"
         buttonAction={jest.fn()} 
         buttonValue="" 
       />
     );
 
-    expect(wrapper.containsMatchingElement(<button type='submit' />)).toEqual(true);
+    expect(wrapper.find('button.start-timer')).toHaveLength(1);
   });
 });
